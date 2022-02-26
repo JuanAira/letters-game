@@ -1,0 +1,22 @@
+@import 'shared';
+
+.App {
+  .section {
+    &--clear {
+      margin-left: 150px;
+      min-width: 530px;
+      display: flex;
+      justify-content: end;
+    }
+
+    &--board {
+      display: flex;
+      padding: 10px;
+
+      &--word {
+        margin-left: 70px;
+        align-items: flex-end;
+      }
+    }
+  }
+}
