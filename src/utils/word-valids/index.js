@@ -1,0 +1,43 @@
+const WORDS_VALID = [
+  "array",
+  "arrays",
+  "art",
+  "arts",
+  "fast",
+  "fat",
+  "fist",
+  "lift",
+  "lifts",
+  "lire",
+  "list",
+  "load",
+  "loaf",
+  "loft",
+  "lost",
+  "lure",
+  "lust",
+  "rant",
+  "rat",
+  "rats",
+  "rent",
+  "rest",
+  "rust",
+  "sat",
+  "soft",
+  "sort",
+  "soy",
+  "start",
+  "starts",
+  "street",
+  "tar",
+  "tart",
+  "tarts",
+  "toy",
+  "toys",
+  "tray",
+  "trays"
+];
+
+export const validateWord = ({ word }) => {
+  return WORDS_VALID.includes(word.toLowerCase());
+};
