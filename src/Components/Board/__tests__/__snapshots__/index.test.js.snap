@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Board /> component should match snapshot - base 1`] = `
+<div>
+  <div
+    class="section-board"
+  >
+    <h3
+      class="letter 0 letter--disabled"
+    >
+      A
+    </h3>
+    <h3
+      class="letter 1 letter--select"
+    >
+      B
+    </h3>
+    <h3
+      class="letter 2 letter--select"
+    >
+      C
+    </h3>
+  </div>
+</div>
+`;
