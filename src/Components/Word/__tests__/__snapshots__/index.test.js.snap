@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Word /> component should match snapshot - word invalid 1`] = `
+<div>
+  <h3
+    class="word word--invalid"
+  >
+    <span
+      class="word--formed"
+    >
+      DEMO
+    </span>
+    <span
+      class="word--feedback"
+    >
+      invalid
+    </span>
+  </h3>
+</div>
+`;
+
+exports[`<Word /> component should match snapshot - word valid 1`] = `
+<div>
+  <h3
+    class="word word--valid"
+  >
+    <span
+      class="word--formed"
+    >
+      TOY
+    </span>
+    <span
+      class="word--feedback"
+    >
+      valid
+    </span>
+  </h3>
+</div>
+`;

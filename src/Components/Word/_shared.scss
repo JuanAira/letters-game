@@ -1,0 +1,27 @@
+.word {
+  margin: 0;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 22px;
+  width: 250px;
+  height: 40px;
+
+  &--invalid {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FF602E;
+  }
+  
+  &--valid {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #46C771;
+  }
+
+  &--feedback {
+    font-size: 12px;
+    color: gray;
+    float: right;
+    padding: 15px;
+  }
+}
