@@ -6,11 +6,14 @@ import { Clear } from '../../Components/Clear';
 import { TailSpin } from 'react-loader-spinner';
 import SharedPropsContext from '../../context/SharedProps';
 
-if (window.screen.width < 500) {
+import { isMobile } from 'react-device-detect';
+
+if (isMobile) {
   require('./styles.mobile.scss');
 } else {
   require('./styles.desktop.scss');
 }
+
 
 export const Game = () => {
   const [board, setBoard] = useState();
@@ -60,12 +63,12 @@ export const Game = () => {
         <div className='section--clear'>
           <Clear disabled={!word.length} />
         </div>
-        <div className='section--board'>
-          <Board board={board} />
-          <div className='section--board section--board--word'>
-            <Word />
+          <div className='section--board'>
+            <Board board={board} />
+            <div className='section--board section--board--word'>
+              <Word />
+            </div>
           </div>
-        </div>
       </div>
     </SharedPropsContext.Provider>
   )

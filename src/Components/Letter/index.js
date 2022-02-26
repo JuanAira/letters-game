@@ -1,8 +1,14 @@
-import './styles.scss';
-
 import React from 'react'
 import PropTypes from 'prop-types';
 import SharedPropsContext from '../../context/SharedProps';
+
+import { isMobile } from 'react-device-detect';
+
+if (isMobile) {
+  require('./styles.mobile.scss');
+} else {
+  require('./styles.desktop.scss');
+}
 
 const nameSpace = 'letter';
 

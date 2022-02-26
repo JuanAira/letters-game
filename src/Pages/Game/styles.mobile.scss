@@ -4,9 +4,7 @@
   .section {
     &--clear {
       margin-bottom: 25px;
-      display: flex;
-      align-content: flex-end;
-      position: sticky;
+      display: block;
     }
   }
 }
