@@ -6,9 +6,7 @@ import { Clear } from '../../Components/Clear';
 import { TailSpin } from 'react-loader-spinner';
 import SharedPropsContext from '../../context/SharedProps';
 
-import { isMobile } from 'react-device-detect';
-
-if (isMobile) {
+if (window.screen.width < 500) {
   require('./styles.mobile.scss');
 } else {
   require('./styles.desktop.scss');
