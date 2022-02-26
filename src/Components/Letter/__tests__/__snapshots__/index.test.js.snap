@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Letter /> component should match snapshot - no include key 1`] = `
+<div>
+  <h3
+    class="letter 0 letter--disabled"
+  >
+    A
+  </h3>
+</div>
+`;

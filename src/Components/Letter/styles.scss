@@ -1,0 +1,27 @@
+.letter {
+  margin: 0;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+
+  &--disabled {
+    background: #2d3340;
+  }
+
+  &--select {
+    background: #ff602e;
+    animation: pulse;
+    animation-duration: 1s;
+  }
+
+  &--neighbors {
+    background: #46c771;
+  }
+
+  &--possible-values {
+    background: #612933;
+  }
+}
